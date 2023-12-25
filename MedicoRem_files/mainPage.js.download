@@ -1,0 +1,16 @@
+// mainapp.js
+
+function submitMainAppForm(event) {
+    event.preventDefault();
+  
+    // Get user input values
+    const age = document.getElementById('age').value;
+    const gender = document.getElementById('gender').value;
+    const selectedDisease = document.getElementById('selectedDisease').value;
+    const otherDisease = document.getElementById('otherDisease').value;
+  
+    // Save user information to local storage or perform other actions
+    // For demonstration purposes, we'll show an alert with the collected information
+    alert(`User Information:\nAge: ${age}\nGender: ${gender}\nSelected Disease: ${selectedDisease}\nOther Disease: ${otherDisease}`);
+  }
+  

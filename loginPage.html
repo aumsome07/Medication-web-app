@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MedicoRem Login</title>
+  <link rel="stylesheet" type="text/css" href="loginstyle.css">
+  <script src="loginValidation.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="MedicoRem Logo" class="logo">
+    <h1>MedicoRem</h1>
+  </header>
+
+  <section>
+    <h1>Login to MedReminder</h1>
+    
+    <form onsubmit="submitLogin(event)">
+      <label for="loginEmail">Email:</label>
+      <input type="email" id="loginEmail" name="loginEmail" required autocomplete="on">
+
+      <label for="loginPassword">Password:</label>
+      <input type="password" id="loginPassword" name="loginPassword" required autocomplete="on">
+
+      <button type="submit">Login</button>
+    </form>
+
+    <p>Don't have an account? <a href="registration_page.html">Register here</a>.</p>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MedicoRem</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="mainPage.js" defer></script>
+</head>
+<body>
+
+  <header>
+    
+    <img src="logo.png" alt="MedicoRem Logo" class="logo">
+    <h1>Welcome to MedicoRem </h1>
+  </header>
+
+  <section>
+    <h1>Hello, [firstName]</h1>
+    
+    <form onsubmit="submitMainAppForm(event)">
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required>
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="selectedDisease">Select a Disease:</label>
+      <select id="selectedDisease" name="selectedDisease">
+        <option value="heartDisease">Heart Disease</option>
+        <option value="arthritis">Arthritis</option>
+        <option value="osteoporosis">Osteoporosis</option>
+        <option value="diabetes">Diabetes (Type 2)</option>
+        <option value="hypertension">Hypertension</option>
+        <option value="cancer">Cancer</option>
+        <option value="dementia">Dementia/Alzheimer's Disease</option>
+      </select>
+
+      <label for="otherDisease">Other Disease (if any):</label>
+      <input type="text" id="otherDisease" name="otherDisease">
+
+     
+      <button type="submit">Save Information</button>
+    </form>
+
+  </section>
+
+</body>
+</html>

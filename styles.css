@@ -1,0 +1,80 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: #4285f4;
+  padding: 20px;
+  color: #fff;
+  font-size: 24px;
+  background-color: #4285f4;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 10px;
+}
+
+section {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #4285f4;
+  color: #fff;
+  border:#af2121;
+  border-radius: 111px;
+  cursor:pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3b79c3;
+}
+
+/* Additional styles for login page */
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+  font-size: 16px;
+}
+
+input, select {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}

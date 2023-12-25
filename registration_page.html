@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MedicoRem Registration</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="registrationStyles.css">
+  <script src="Storage.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <a href="Test00.html"><img src="logo.png" alt="MedicoRem Logo" class="logo"></a>
+    
+    <h1>MedicoRem</h1>
+  </header>
+
+  <section class="registration-section">
+    <h2>Register for MedicoRem</h2>
+    
+    <form onsubmit="submitRegistration(event)" class="registration-form">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required>
+
+      <label for="middleName">Middle Name:</label>
+      <input type="text" id="middleName" name="middleName" required>
+
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Register</button>
+    </form>
+
+    <p>Already have an account? <a href="loginPage.html">Login here</a>.</p>
+  </section>
+
+  <footer class="footer">
+    <!-- Background watermark -->
+  </footer>
+
+</body>
+</html>
