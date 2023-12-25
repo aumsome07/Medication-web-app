@@ -29,9 +29,10 @@ function saveDataToLocalStorage() {
     saveDataToLocalStorage();
   
     // Additional logic if needed after saving data
-    // ...
+    
   
     // Example: Alert the user that data has been saved
-    alert('Data has been saved to local storage!');
+    alert('Data has been saved!');
+    window.location.href = "Reminder.html";
   }
     
